@@ -10,8 +10,7 @@
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue mattis lectus eu maximus. Aenean scelerisque tortor quis lectus tempus, a venenatis tortor ullamcorper. Morbi id placerat libero. In euismod tortor a mollis egestas. Aenean eu turpis in urna laoreet porta quis a ante. In at semper erat. Aenean vulputate diam magna, sed porttitor quam tincidunt ut. Morbi justo erat, ultrices sed urna ac, consequat lacinia quam. Duis ut ipsum mollis, vehicula neque vel, pulvinar odio. Cras lacinia enim ac tellus feugiat, ut gravida massa pharetra. In vitae maximus augue. Cras leo nibh, lacinia nec laoreet nec, eleifend eu lacus. Integer sagittis elit libero, pretium auctor arcu ornare sit amet.
     </p>
-    <a href="registration-page.html">Push Notification</a>
-    <!--<iframe src="./secure-bridge.html" title="Secure-Bridge"></iframe>-->
+    <button type="button" onclick="UA.then(sdk => { sdk.register() })">Register For Push Notification</button>
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function () {
