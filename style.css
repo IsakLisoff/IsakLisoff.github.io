@@ -8,4 +8,11 @@ p {
 	margin: auto;
 	max-width: 50vw;
 	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+button{
+	max-width: 15vw;
+	margin:auto;
+	display: block;
 }
